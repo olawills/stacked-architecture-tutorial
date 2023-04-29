@@ -1,8 +1,4 @@
-# stacked_app
-
-## Tutorial 001
-
-<h4> This repo will be on a simple counter app built using the stacked cli link to the documentation will be provided below</h3>
+# Stacked Architecture 
 
 <p> What is MVVM that is the first question that pops into your mind when u hear of stacked as the state management uses it's pattern to create maintainable apps.</p>
 <p style = "font-size:5vw"> MVVM means three things which are Model, View, ViewModel..</p>
