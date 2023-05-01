@@ -4,6 +4,7 @@ import 'package:form_app/app/app.dialogs.dart';
 import 'package:form_app/app/app.locator.dart';
 import 'package:form_app/app/app.router.dart';
 import 'package:form_app/ui/common/app_colors.dart';
+import 'package:form_app/ui/common/app_strings.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 void main() {
@@ -20,10 +21,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: kAppName,
+      debugShowCheckedModeBanner: false,
       theme: Theme.of(context).copyWith(
-        primaryColor: kcBackgroundColor,
-        focusColor: kcPrimaryColor,
+        scaffoldBackgroundColor: kNewColor,
+        // focusColor: kcPrimaryColor,
         textTheme: Theme.of(context).textTheme.apply(
               bodyColor: Colors.black,
             ),

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "14711649894",
+    "project_id": "stacked-forms",
+    "storage_bucket": "stacked-forms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14711649894:android:1de6d9efccefad2d5cdfa7",
+        "android_client_info": {
+          "package_name": "com.example.sign_in_with_stacked"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14711649894-ts90vgvcl7mc2p18p1k35nl3645qk5h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqwoTAyGmdLQfRgOLodsjEWcnDUr7t5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14711649894-ts90vgvcl7mc2p18p1k35nl3645qk5h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
