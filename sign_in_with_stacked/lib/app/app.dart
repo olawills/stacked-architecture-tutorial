@@ -5,7 +5,7 @@ import 'package:sign_in_with_stacked/ui/views/home/home_view.dart';
 import 'package:sign_in_with_stacked/ui/views/startup/startup_view.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
-import 'package:sign_in_with_stacked/ui/views/sign_in_view/sign_in_view_view.dart';
+import 'package:sign_in_with_stacked/ui/views/sign_in_view/sign_in_view.dart';
 import 'package:sign_in_with_stacked/ui/views/sign_up_view/sign_up_view_view.dart';
 import 'package:sign_in_with_stacked/ui/views/otp/otp_view.dart';
 // @stacked-import

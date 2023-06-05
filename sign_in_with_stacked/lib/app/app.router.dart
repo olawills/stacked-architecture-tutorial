@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 import 'package:sign_in_with_stacked/core/model/user_model.dart' as _i8;
 import 'package:sign_in_with_stacked/ui/views/home/home_view.dart' as _i2;
 import 'package:sign_in_with_stacked/ui/views/otp/otp_view.dart' as _i6;
-import 'package:sign_in_with_stacked/ui/views/sign_in_view/sign_in_view_view.dart'
+import 'package:sign_in_with_stacked/ui/views/sign_in_view/sign_in_view.dart'
     as _i4;
 import 'package:sign_in_with_stacked/ui/views/sign_up_view/sign_up_view_view.dart'
     as _i5;

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
+import 'package:http/http.dart' as http;
 import 'package:sign_in_with_stacked/app/app.logger.dart';
 import 'package:sign_in_with_stacked/ui/common/constants.dart';
-import 'package:http/http.dart' as http;
 
 final log = getLogger('ApiService');
 
@@ -47,6 +47,23 @@ class ApiService {
     } catch (e) {
       log.d(e);
       return null;
+    }
+  }
+
+  Future<dynamic> sigInUsers(
+      {required String email, required String password}) async {
+    try {
+      http.Response response = await http.post(
+        Uri.parse('$url/auth/login'),
+        body: jsonEncode({
+          'email': email,
+          'password': password,
+        }),
+        headers: {'Content-Type': 'application/json'},
+      );
+      log.i(response.body);
+    } catch (e) {
+      log.i(e.toString());
     }
   }
 }

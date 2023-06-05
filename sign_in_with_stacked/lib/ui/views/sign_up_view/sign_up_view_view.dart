@@ -5,8 +5,9 @@ import 'package:sign_in_with_stacked/ui/widgets/custom_button.dart';
 import 'package:sign_in_with_stacked/ui/widgets/custom_text_field.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked/stacked_annotations.dart';
-import 'sign_up_view_viewmodel.dart';
+
 import 'sign_up_view_view.form.dart';
+import 'sign_up_viewmodel.dart';
 
 @FormView(fields: [
   FormTextField(name: 'firstName'),
